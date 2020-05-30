@@ -39,7 +39,7 @@
 }
 
 .nav-links li a:hover {
-    color: darkgray;
+    color: black;
 }
 
 .hero-page {
@@ -48,27 +48,29 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0px 50px 50px 50px;
 }
 
 .hero-image {
-    width: 400px;
-}
-
-.hero-image-container{
-    display: block;
-    padding-bottom: 50px;
-    
-}
-
-.hero-tagline-container{
-    display: block;
-    padding-bottom: 50px;
+    width: 50%;
+    height: auto;
 }
 
 .hero-tagline-container h1 {
     font-family: 'Noto Sans', sans-serif;
     text-align: end;
-    font-size: 72px;
-    padding-left: 100px;
-    padding-right: 100px;
+    font-size: 6vw;
+}
+
+.features-page {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px 50px 50px;
+}
+
+.features-image{
+
 }
