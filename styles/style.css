@@ -64,13 +64,30 @@
 
 .features-page {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0px 50px 50px 50px;
 }
 
-.features-image{
-
+.features-list{
+    list-style: none;
 }
+
+.features-list li{
+    display: flex;
+    grid-template-columns: 1fr 4fr;
+    padding: 25px;
+    font-family:  'Noto Sans', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    align-items: center;
+}
+
+.features-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+
