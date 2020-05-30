@@ -46,20 +46,29 @@
     width: 100vw;
     height: 90vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.hero-tagline{
+.hero-image {
+    width: 400px;
+}
+
+.hero-image-container{
     display: block;
     padding-bottom: 50px;
+    
+}
+
+.hero-tagline-container{
+    display: block;
     padding-bottom: 50px;
 }
 
-.hero-tagline h1 {
+.hero-tagline-container h1 {
     font-family: 'Noto Sans', sans-serif;
     text-align: end;
     font-size: 72px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
