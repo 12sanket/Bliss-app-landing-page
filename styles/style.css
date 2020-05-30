@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -72,24 +73,80 @@
     align-items: center;
 }
 
-.features-list{
+.features-list {
     list-style: none;
 }
 
-.features-list li{
+.features-list li {
     display: flex;
     grid-template-columns: 1fr 4fr;
     padding: 25px;
-    font-family:  'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 2vw;
     font-weight: bold;
     align-items: center;
 }
 
-.features-logo{
+.features-logo {
     width: 40px;
     height: 40px;
     margin-right: 50px;
 }
 
+.reviews-page {
+    width: calc(100vw - (100vw - 100%));
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.get-it-now-container {
+    display: block;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.google-play {
+    width: 40%;
+    margin: 40px;
+}
+
+.reviews-list {
+    list-style: none;
+}
+
+.reviews-list li {
+    padding: 30px;
+}
+
+.review-text {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5px;
+}
+
+.review-person {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.rating-bar {
+    text-align: center;
+    padding: 5px;
+}
+
+.star {
+    width: 32px;
+    height: 32px;
+}
+
+.footer {
+    width: calc(100vw - (100vw - 100%));
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
