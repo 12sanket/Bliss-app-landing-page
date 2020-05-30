@@ -147,6 +147,29 @@
     width: calc(100vw - (100vw - 100%));
     height: 20vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer-links li {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 20px;
+}
+
+.footer-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+
+}
+
+.footer-links li a:hover {
+    color: black;
 }
