@@ -153,7 +153,6 @@
 
 .footer-links {
     list-style: none;
-    margin-right: 20px;
 }
 
 .footer-links li {
@@ -253,7 +252,7 @@
     .features-list li {
         display: flex;
         grid-template-columns: 1fr 4fr;
-        padding: 5px;
+        padding: 10px;
         font-family: 'Noto Sans', sans-serif;
         font-size: 4vw;
         font-weight: bold;
@@ -272,6 +271,7 @@
 
     .footer-links {
         margin-right: 0px;
+        padding-top: 20px;
     }
 
     .footer-links li {
