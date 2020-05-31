@@ -47,7 +47,7 @@
 
 .hero-page {
     width: calc(100vw - (100vw - 100%));
-    height: 90vh;
+    height: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,7 +67,7 @@
 
 .features-page {
     width: calc(100vw - (100vw - 100%));
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -95,7 +95,7 @@
 
 .reviews-page {
     width: calc(100vw - (100vw - 100%));
-    height: 80vh;
+    height: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
