@@ -54,7 +54,7 @@
 }
 
 .hero-image {
-    width: 500px;
+    width: 50%;
     height: auto;
 }
 
@@ -175,24 +175,156 @@
 }
 
 
-@media all and (max-width: 1000px){
+@media (max-width: 720px){
     .header{
         flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
 
     .hero-page{
         flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
 
     .features-page{
         flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
 
     .reviews-page{
         flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
 
     .footer{
         flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
+
+    
+    .header-logo {
+       
+    }
+    
+    .nav-links {
+        list-style: none;
+        margin-right: 20px;
+    }
+    
+    .nav-links li {
+        display: inline-block;
+        font-family: 'Noto Sans', sans-serif;
+        margin: 20px;
+    }
+    
+    .nav-links li a {
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+        color: #6C63FF;
+        font-size: 14px;
+    
+    }
+    
+    .nav-links li a:hover {
+        color: black;
+    }
+    
+
+    .hero-image {
+        width: 90%;
+        height: auto;
+    }
+    
+    .hero-tagline-container h1 {
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+        padding-left: 50px;
+    }
+    
+    .features-list {
+        list-style: none;
+    }
+    
+    .features-list li {
+        display: flex;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2vw;
+        font-weight: bold;
+        align-items: center;
+    }
+    
+    .features-logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .get-it-now-container {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+    .google-play {
+        width: 40%;
+    }
+    
+    .reviews-list {
+        list-style: none;
+    }
+    
+    .reviews-list li {
+        padding: 30px;
+    }
+    
+    .review-text {
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+        padding: 5px;
+    }
+    
+    .review-person {
+        text-align: center;
+        padding: 5px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .rating-bar {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .star {
+        width: 32px;
+        height: 32px;
+    }
+    
+    
+    .footer-links {
+        list-style: none;
+    }
+    
+    .footer-links li {
+        display: inline-block;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .footer-links li a {
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+        color: gray;
+        font-size: 12px;
+    
+    }
+    
+    .footer-links li a:hover {
+        color: black;
+    }
+
 }
