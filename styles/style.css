@@ -9,6 +9,7 @@
 .header {
     width: calc(100vw - (100vw - 100%));
     height: 10vh;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +48,7 @@
 
 .hero-page {
     width: calc(100vw - (100vw - 100%));
-    height: 90%;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,7 +68,8 @@
 
 .features-page {
     width: calc(100vw - (100vw - 100%));
-    height: 100%;
+    height: 100vh;
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -95,7 +97,8 @@
 
 .reviews-page {
     width: calc(100vw - (100vw - 100%));
-    height: 80%;
+    height: 80vh;
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -146,6 +149,7 @@
 .footer {
     width: calc(100vw - (100vw - 100%));
     height: 20vh;
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
