@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Helvetica;
 }
 
 .header {
@@ -27,7 +28,6 @@
 
 .nav-links li {
     display: inline-block;
-    font-family: Helvetica;
     margin: 20px;
 }
 
@@ -58,7 +58,6 @@
 }
 
 .hero-tagline-container h1 {
-    font-family: Helvetica;
     text-align: end;
     font-size: 6vw;
     padding-right: 50px;
@@ -81,7 +80,7 @@
     display: flex;
     grid-template-columns: 1fr 4fr;
     padding: 25px;
-    font-family: Helvetica;
+
     font-size: 2vw;
     font-weight: bold;
     align-items: center;
@@ -105,7 +104,6 @@
 
 .get-it-now-container {
     display: block;
-    font-family: Helvetica;
     font-size: 3vw;
     text-align: center;
 }
@@ -125,14 +123,12 @@
 
 .review-text {
     text-align: center;
-    font-family: Helvetica;
     padding: 5px;
 }
 
 .review-person {
     text-align: center;
     padding: 5px;
-    font-family: Helvetica;
 }
 
 .rating-bar {
@@ -159,7 +155,6 @@
 
 .footer-links li {
     display: inline-block;
-    font-family: Helvetica;
     margin: 20px;
 }
 
