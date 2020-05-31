@@ -167,7 +167,6 @@
     text-decoration: none;
     color: gray;
     font-size: 14px;
-
 }
 
 .footer-links li a:hover {
@@ -225,11 +224,13 @@
     .hero-image {
         width: 90%;
         height: auto;
-        padding-bottom: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .hero-tagline-container{
-        padding: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .hero-tagline-container h1 {
@@ -240,21 +241,40 @@
     }
 
     .features-image{
-        padding: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .features-list {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .features-list li {
         display: flex;
         grid-template-columns: 1fr 4fr;
-        padding: 15px;
+        padding: 5px;
         font-family: 'Noto Sans', sans-serif;
         font-size: 4vw;
         font-weight: bold;
         align-items: center;
+    }
+
+    .google-play {
+        width: 40%;
+        margin: 20px;
+    }
+
+    .reviews-list li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-links {
+        margin-right: 0px;
+    }
+
+    .footer-links li {
+        margin: 15px;
     }
 }
