@@ -54,7 +54,7 @@
 }
 
 .hero-image {
-    width: 40%;
+    width: 500px;
     height: auto;
 }
 
@@ -172,4 +172,27 @@
 
 .footer-links li a:hover {
     color: black;
+}
+
+
+@media all and (max-width: 1000px){
+    .header{
+        flex-direction: column;
+    }
+
+    .hero-page{
+        flex-direction: column;
+    }
+
+    .features-page{
+        flex-direction: column;
+    }
+
+    .reviews-page{
+        flex-direction: column;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
 }
